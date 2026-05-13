@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = 'Docker-credentials' 
-        IMAGE_NAME = 'your_dockerhub_username/new_docker_image' 
+        IMAGE_NAME = 'sidharth0503/new_docker_image' 
     }
     stages {
         stage('Build Java Application') {
