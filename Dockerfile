@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk
+FROM openjdk:25
 WORKDIR /app
 COPY . /app
 RUN javac HelloWorld.java
