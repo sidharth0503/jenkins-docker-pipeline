@@ -1,4 +1,4 @@
-FROM openjdk:25
+FROM ://microsoft.com
 WORKDIR /app
 COPY . /app
 RUN javac HelloWorld.java
