@@ -17,6 +17,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
+                bat 'docker logout'
                 bat 'docker build -t %IMAGE_NAME%:latest .'
             }
         }
